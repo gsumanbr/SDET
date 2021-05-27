@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16850" started-at="2021-03-28T08:45:12Z" finished-at="2021-03-28T08:45:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16850" started-at="2021-03-28T08:45:12Z" finished-at="2021-03-28T08:45:28Z">
+      <class name="com.qa.DemoGuru.Register">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.DemoGuru.Register@1ce92674]" name="setUp" is-config="true" duration-ms="8934" started-at="2021-03-28T08:45:12Z" finished-at="2021-03-28T08:45:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.guru99.com/test/newtours/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.DemoGuru.Register@1ce92674]" name="Registration" duration-ms="4360" started-at="2021-03-28T08:45:23Z" data-provider="getData" finished-at="2021-03-28T08:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567897]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.DemoGuru.Register@1ce92674]" name="tearDown" is-config="true" duration-ms="983" started-at="2021-03-28T08:45:28Z" finished-at="2021-03-28T08:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.DemoGuru.Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test automation Rediff" thread-count="5" parallel = "tests">
+  <test thread-count="5" name="Functional Testing 1" >
+  <parameter name = "Browser" value = "edge"/>
+    <classes>    
+      <class name="com.qa.recap.TC_Rediff_01"/>     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Functional Testing 2" >
+  <parameter name = "Browser" value = "chrome"/>
+    <classes>       
+      <class name="com.qa.recap.TC_Rediff_01"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

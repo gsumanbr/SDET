@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38308" started-at="2021-04-10T05:24:09Z" finished-at="2021-04-10T05:24:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38308" started-at="2021-04-10T05:24:09Z" finished-at="2021-04-10T05:24:48Z">
+      <class name="com.qa.TestScripts.TC_01_TransferFunds">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestScripts.TC_01_TransferFunds@5ec0a365]" name="setUp" is-config="true" duration-ms="34685" started-at="2021-04-10T05:24:10Z" finished-at="2021-04-10T05:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://parabank.parasoft.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TransferFund()[pri:0, instance:com.qa.TestScripts.TC_01_TransferFunds@5ec0a365]" name="TransferFund" duration-ms="2959" started-at="2021-04-10T05:24:45Z" finished-at="2021-04-10T05:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferFund -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.TestScripts.TC_01_TransferFunds@5ec0a365]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-10T05:24:48Z" finished-at="2021-04-10T05:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.TestScripts.TC_01_TransferFunds -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
