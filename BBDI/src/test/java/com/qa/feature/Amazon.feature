@@ -6,7 +6,7 @@ When the title of the page has amazon keyword
 Then close the browser
 
 
-Scenario: search an item
+Scenario: search an item1
 Given the user is on amazon page
 When the title of the page has amazon keyword
 Then select Books a category
