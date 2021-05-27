@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Admin Tab text is displaying as:'Admin']]>
+    </line>
+    <line>
+      <![CDATA[Market Place text is displaying as :'Marketplace']]>
+    </line>
+    <line>
+      <![CDATA[Welcome Admin text is displaying as :'Welcome Paul']]>
+    </line>
+    <line>
+      <![CDATA[Leaves List text is displaying as :'Leave List']]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27087" started-at="2021-05-02T17:46:46Z" finished-at="2021-05-02T17:47:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27087" started-at="2021-05-02T17:46:46Z" finished-at="2021-05-02T17:47:13Z">
+      <class name="SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15">
+        <test-method status="PASS" signature="BrowserOpen()[pri:0, instance:SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15@1a968a59]" name="BrowserOpen" is-config="true" duration-ms="9160" started-at="2021-05-02T23:16:46Z" finished-at="2021-05-02T23:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15@1a968a59]" name="Login" duration-ms="7571" started-at="2021-05-02T23:16:55Z" finished-at="2021-05-02T23:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="XPATh()[pri:2, instance:SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15@1a968a59]" name="XPATh" duration-ms="9503" started-at="2021-05-02T23:17:03Z" depends-on-methods="SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15.Login" finished-at="2021-05-02T23:17:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin Tab text is displaying as:'Admin']]>
+            </line>
+            <line>
+              <![CDATA[Market Place text is displaying as :'Marketplace']]>
+            </line>
+            <line>
+              <![CDATA[Welcome Admin text is displaying as :'Welcome Paul']]>
+            </line>
+            <line>
+              <![CDATA[Leaves List text is displaying as :'Leave List']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- XPATh -->
+        <test-method status="PASS" signature="signoff()[pri:0, instance:SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15@1a968a59]" name="signoff" is-config="true" duration-ms="804" started-at="2021-05-02T23:17:12Z" finished-at="2021-05-02T23:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signoff -->
+      </class> <!-- SeleniumAssignments.SeleniumAssignments.xpathSelector_TestCase15 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
